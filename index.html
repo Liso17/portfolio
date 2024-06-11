@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <!--MENU-->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Liso</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!--INICIO-->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="img/ldm.png" alt="">
+            </div>
+            <h1>Lisandro De Michelis</h1>
+            <h2>Full-Stack Developer</h2>
+            <div class="redes">
+                <a href="https://github.com/Liso17"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/lisandro-de-michelis-18579a69"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#"><i class="fa-solid fa-square-envelope"></i></a>
+                <a href="https://wa.me/541130341670"><i class="fa-brands fa-whatsapp"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!--SOBRE MI-->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí</h2>
+            <p><span>Hola, soy Lisandro De Michelis</span>, vivo en Zona Sur de Buenos Aires, tengo 33 años y busco empezar mi carrera en el mundo de la programación.
+                Desde muy joven, desarrollé un gran interés por la informática y la tecnología.
+                Siempre estoy dispuesto a enfrentar nuevos desafíos y a aprender de ellos. Mi objetivo es seguir creciendo y aprendiendo para poder contribuir de manera significativa en proyectos.</p>
+                                
+                <div class="fila">
+                    <!--datos personales-->
+                    <div class="col">
+                        <h3>Datos Personales</h3>
+                        <ul>
+                            <li>
+                                <strong>Cumpleaños</strong>
+                                24-05-1990
+                            </li>
+                            <li>
+                                <strong>Teléfono</strong>
+                                1130341670
+                            </li>
+                            <li>
+                                <strong>Email</strong>
+                                liso_dm@hotmail.com
+                            </li>
+                            <li>
+                                <strong>Dirección</strong>
+                                Don Bosco 1494, Temperley, Bs. As., Argentina
+                            </li>
+                            <li>
+                                <strong>Empleo</strong>
+                                <span>DESEMPLEADO</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <!--intereses-->
+                    <div class="col">
+                        <h3>Intereses</h3>
+                        <div class="contenedor-intereses">
+                            <div class="interes">
+                                <i class="fa-solid fa-gamepad"></i>
+                                <span>JUEGOS</span>
+                            </div>
+                            <div class="interes">
+                                <i class="fa-solid fa-music"></i>
+                                <span>MUSICA</span>
+                            </div>
+                            <div class="interes">
+                                <i class="fa-solid fa-computer"></i>
+                                <span>INFORMÁTICA</span>
+                            </div>
+                            <div class="interes">
+                                <i class="fa-solid fa-futbol"></i>
+                                <span>DEPORTES</span>
+                            </div>
+                            <div class="interes">
+                                <i class="fa-solid fa-plane"></i>
+                                <span>VIAJAR</span>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <button>
+                    <a href="https://drive.google.com/file/d/1SMYCAtvdNX-0W3gi--xR9fTe-uTSbmU_/view?usp=sharing">Descargar CV <i class="fa-solid fa-download"></i></a>
+                    <span class="overlay"></span>
+                </button>
+        </div>        
+    </section>
+
+    <!--SKILLS-->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Skills</h2>
+            <div class="fila">
+                <!--Technical Skills-->
+                <div class="col">
+                    <h3>Technical Skills</h3>
+                    <div class="skill">
+                        <span>Javascript</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>60%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>60%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Photoshop</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>50%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Wordpress</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>40%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Paquete Office</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Professional Skills-->
+                <div class="col">
+                    <h3>Professional Skills</h3>
+                    <div class="skill">
+                        <span>Trabajo en equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Autodidacta</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Responsabilidad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Puntualidad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>35%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--CURRICULUM-->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>Full-Stack Developer</h4>
+                        <span class="casa">UTN</span>
+                        <span class="fecha">2020</span>
+                        <p>Hice un curso de Full-Stack Developer. Angular, React, Javascript, HTML, CSS.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>QA Tester</h4>
+                        <span class="casa">Udemy</span>
+                        <span class="fecha">2024</span>
+                        <p>Me encuentro haciendo un curso de Quality Assurance Testing.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col derecha">
+                    <h3>Experiencia de trabajo</h3>
+                    <div class="item der">
+                        <h4>Soporte Back Office</h4>
+                        <span class="casa">Assert Solutions</span>
+                        <span class="fecha">08-2023 12-2023</span>
+                        <p>Me dediqué a administrar datos.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Corte Laser de chapas</h4>
+                        <span class="casa">MS Laser Group</span>
+                        <span class="fecha">2021-2023</span>
+                        <p>Me desempeñe como operario de corte laser de chapas en una metalúrgica.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Restauración, armado y diseño de muebles</h4>
+                        <span class="casa">1925 Restauración</span>
+                        <span class="fecha">2018-2021</span>
+                        <p>Proyecto familiar dedicado a los muebles.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Administración</h4>
+                        <span class="casa">Caps Ram SRL</span>
+                        <span class="fecha">2011-2018</span>
+                        <p>En esta empresa me dediqué al análisis y control de stock, gestión de compras, logística, facturación y cobranzas. </p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--PORTFOLIO-->
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>PORTFOLIO</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="img/Web1925Code.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Web</h3>
+                        <p>Edición de Fotografías</p>
+                    </div>
+                </div>
+                <!--<div class="proyecto">
+                    <img src="img/Web1925Code.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/Web1925Code.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>-->
+            </div>
+        </div>
+    </section>
+
+    <!--CONTACTO-->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+                <!--Formulario-->
+                <div class="col">
+                    <input type="text" placeholder="Nombre">
+                    <input type="text" placeholder="Celular">
+                    <input type="text" placeholder="Dirección de correo">
+                    <input type="text" placeholder="Asunto">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <button>
+                        Enviar Mensaje <i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+                <!--Mapa-->
+                <div class="col">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d88210.77518347344!2d-58.487065056703855!3d-34.75174993614743!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcd2d1bb6a519b%3A0x4071a66f4decfb23!2sTemperley%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1717116730914!5m2!1ses-419!2sar" width="100%" height="630" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <!--<div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-map-location-dot"></i>
+                                Temperley, Bs. As., Argentina
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen-button"></i>
+                                Celular: 1130341670
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-at"></i>
+                                Email: liso_dm@hotmail.com
+                            </li>
+                        </ul>
+                    </div>-->
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!--FOOTER-->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="https://github.com/Liso17"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/lisandro-de-michelis-18579a69"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#"><i class="fa-solid fa-square-envelope"></i></a>
+            <a href="https://wa.me/541130341670"><i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
