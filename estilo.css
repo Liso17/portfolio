@@ -202,6 +202,10 @@ html{
     position: relative;
     z-index: 10;
 }
+.sobremi button a{
+    text-decoration: none;
+    color: antiquewhite;
+}
 .sobremi button .overlay{
     position: absolute;
     top: 0;
@@ -489,6 +493,11 @@ html{
     height: fit-content;
     margin: 10px;
     cursor: pointer;
+}
+.portfolio .galeria .proyecto a{
+    color: whitesmoke;
+    text-decoration: none;
+    font-weight: bold;
 }
 .portfolio .galeria .proyecto img{
     width: 100%;
