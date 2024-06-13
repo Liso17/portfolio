@@ -35,6 +35,7 @@ html{
 .contenedor-header header ul{
     display: flex;
     list-style: none;
+    margin-left: 36%;
 }
 .contenedor-header header nav ul li a{
     text-align: none;
