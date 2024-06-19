@@ -344,21 +344,13 @@ html{
     0%{width: 0%;}
     100%{width: 80%;}
 }
-.skills .skill .responsabilidad{
+.skills .skill .ingles{
     width: 0%;
-    animation: 2s responsabilidad forwards;    
+    animation: 2s ingles forwards;    
 }
-@keyframes responsabilidad{
+@keyframes ingles{
     0%{width: 0%;}
-    100%{width: 85%;}
-}
-.skills .skill .puntualidad{
-    width: 0%;
-    animation: 2s puntualidad forwards;    
-}
-@keyframes puntualidad{
-    0%{width: 0%;}
-    100%{width: 35%;}
+    100%{width: 60%;}
 }
 
 /*CURRICULUM*/

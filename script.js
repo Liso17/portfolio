@@ -27,8 +27,7 @@ function efectoHabilidades(){
         habilidades[5].classList.add("trabajo");
         habilidades[6].classList.add("dedicacion");
         habilidades[7].classList.add("autodidacta");
-        habilidades[8].classList.add("responsabilidad");
-        habilidades[9].classList.add("puntualidad");
+        habilidades[8].classList.add("ingles");
     }
 }
 
