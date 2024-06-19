@@ -20,11 +20,12 @@ html{
 }
 .contenedor-header header{
     max-width: 1100px;
-    margin: auto;
     display: flex;
-    justify-content: space-between;
     align-items: center;
     padding: 15px 20px;
+    margin:auto;
+    text-align: center;
+    justify-content: center;
 }
 .contenedor-header header .logo a{
     font-family: 'Roboto';
@@ -54,7 +55,7 @@ html{
     border-radius: 5px;
     cursor: pointer;
     display: none;
-    margin-right: 5%;
+    margin-right: -98%;
 }
 
 /*INICIO*/
@@ -102,7 +103,7 @@ html{
     width: 42px;
     height: 42px;
     line-height: 42px;
-    margin: 40px 5px;
+    margin: 15px 5px;
     font-size: 20px;
     transition: .3s;
 }
