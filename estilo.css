@@ -320,6 +320,14 @@ html{
     0%{width: 0%;}
     100%{width: 75%;}
 }
+.skills .skill .sql{
+    width: 0%;
+    animation: 2s sql forwards;
+}
+@keyframes sql{
+    0%{width: 0%;}
+    100%{width: 50%;}
+}
 .skills .skill .trabajo{
     width: 0%;
     animation: 2s trabajo forwards;    
