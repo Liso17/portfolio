@@ -24,11 +24,11 @@ function efectoHabilidades(){
         habilidades[2].classList.add("photoshop");
         habilidades[3].classList.add("wordpress");
         habilidades[4].classList.add("office");
-        habilidades[5].classList.add("sql");
-        habilidades[6].classList.add("trabajo");
-        habilidades[7].classList.add("dedicacion");
-        habilidades[8].classList.add("autodidacta");
-        habilidades[9].classList.add("ingles");
+        habilidades[5].classList.add("trabajo");
+        habilidades[6].classList.add("dedicacion");
+        habilidades[7].classList.add("autodidacta");
+        habilidades[8].classList.add("ingles");
+        habilidades[9].classList.add("sql");
     }
 }
 
