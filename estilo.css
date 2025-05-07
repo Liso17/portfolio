@@ -318,7 +318,15 @@ html{
 }
 @keyframes office{
     0%{width: 0%;}
-    100%{width: 75%;}
+    100%{width: 80%;}
+}
+.skills .skill .sql{
+    width: 0%;
+    animation: 2s sql forwards;    
+}
+@keyframes sql{
+    0%{width: 0%;}
+    100%{width: 50%;}
 }
 .skills .skill .trabajo{
     width: 0%;
@@ -334,7 +342,7 @@ html{
 }
 @keyframes dedicacion{
     0%{width: 0%;}
-    100%{width: 75%;}
+    100%{width: 85%;}
 }
 .skills .skill .autodidacta{
     width: 0%;
